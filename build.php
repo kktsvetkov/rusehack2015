@@ -34,7 +34,7 @@
 
 	private function html_dir(): string
 	{
-		return __DIR__ . '/html';
+		return __DIR__ . '/docs';
 	}
 
 	private function html_media_url(): string
