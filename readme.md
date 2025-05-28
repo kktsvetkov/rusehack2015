@@ -11,15 +11,32 @@ links + photos + videos
 * favicon
 * skrollspy
 
+https://tvn.bg/zapisvat-za-uchastie-v-hakaton-ruse-hack-2015/
+http://www.arenamedia.net/news.php?newsandpromotion_id=25939
+https://www.dunavmost.com/novini/parviyat-rusenski-hakaton-startira-s-tsel-kasaeshta-vsichki-v-grada
+http://iteventz.bg/events/Ruse-Hack-2015-purviyat-rusenski-hakaton/297
+
+https://www.uni-ruse.bg/admission/why/PublishingImages/hack1.jpg
+
 https://github.com/RuseHack2015
 
 https://x.com/search?q=%23RuseHack&src=typed_query&f=live
+
+https://x.com/oba4e/status/605440685832044544
+https://x.com/oba4e/status/605039286438768640
+https://x.com/oba4e/status/604531611032535040
+https://x.com/oba4e/status/604529238318940160
+https://x.com/oba4e/status/604528567188398080
 
 https://www.facebook.com/search/top?q=rusehack
 https://www.facebook.com/hashtag/rusehack
 https://www.facebook.com/events/465079546992581/?active_tab=discussion
 
 https://www.facebook.com/events/465079546992581/?post_id=471858832981319&view=permalink&__cft__[0]=AZWENGJofXrdxUSt1fybQAsNYugcDNiATI-3W_Ictpm8smN5yMSIA4LlSGraI-xUIH6ZM8AcVjpW--_nFT7zxBLXO1DHvxdTzsS1MW8iIrPtO1wCBFc9NDORfAikGKx-mQk&__tn__=%2CO%2CP-R
+
+https://www.facebook.com/photo/?fbid=1631458860326579&set=a.139582592847554&__cft__[0]=AZWGS7nKtEnmluJbzvgePj5M9BDTGJunYE2wfoujUIwvj397ZfIwrWyyliyCOpCqFLldpW4MihuZPA1JvzCKHdXy6dd7maUEOKgGsl5-d9sC1z1vzmnKu45zQl8PeAN2-HWwk647VoJnJP-OeQDFfu3BNofN-FprjTeIL2V3DGvkKg&__tn__=%2CO%2CP-R
+
+https://www.facebook.com/photo/?fbid=1632498790222586&set=a.139582592847554&__cft__[0]=AZWcthYi0Prd6c2FDBDQQ2a0QYcrMnbwYO8ucC5ByBxFNwnuVADV7SLd-f9BdzNdNusYny3_5vsO7PDEnkexHrooQ0Yvdg1H3YTgmojMREBTA2ezJdygrEU2W_QEVMp2h6KblJlRyb8WIK6Y4p3oWFuLe1HI7RwrL8PacIkHP4fKMw&__tn__=%2CO%2CP-R
 
 https://www.instagram.com/p/3RYViqATuU/
 https://www.instagram.com/p/3WL6SiHtP0/
