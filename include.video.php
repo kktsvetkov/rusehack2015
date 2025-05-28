@@ -25,7 +25,7 @@ href="https://www.youtube.com/playlist?list=PLnQf4XfNacVEqJOZdpoAm1sST1wZdULR-">
 
 <div class="container text-center">
 	<div class="row">
-	<?php $per_row = 3; foreach ($videos as $i => $video)
+	<?php $per_row = 2; foreach ($videos as $i => $video)
 	{
 		if (0 != $i && 0 == $i % $per_row)
 		{
@@ -33,17 +33,18 @@ href="https://www.youtube.com/playlist?list=PLnQf4XfNacVEqJOZdpoAm1sST1wZdULR-">
 		}
 
 		[$key, $title] = $video;
-		?><div class="col-4">
+		?><div class="col-6">
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/<?= $key; ?>"
 			title="<?= $title; ?>" frameborder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-			referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><?php
+			referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div><?php
 	}
 
-	$fill = (1 + $i) % 3;
+	$fill = (1 + $i) % $per_row;
 	for ($i = 0; $i < $fill; $i++)
 	{
-		echo '<div class="col-4"></div>';
+		echo '<div class="col-6 bg-default">333</div>';
 	}
 	?>
 	</div>
