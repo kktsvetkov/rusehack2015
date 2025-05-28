@@ -11,6 +11,9 @@ links + photos + videos
 * favicon
 * skrollspy
 
+nameri posta s towa video i go sloji pri Social
+``` ['9uM9mRWFDts', 'RuseHack2015: Приготовления за защитите на проектите'], ```
+
 https://tvn.bg/zapisvat-za-uchastie-v-hakaton-ruse-hack-2015/
 http://www.arenamedia.net/news.php?newsandpromotion_id=25939
 https://www.dunavmost.com/novini/parviyat-rusenski-hakaton-startira-s-tsel-kasaeshta-vsichki-v-grada

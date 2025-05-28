@@ -1,16 +1,29 @@
-<!doctype html>
+<?php $sections = [
+	'start' => 'Организатори',
+	'teams' => 'Участници',
+	'prize' => 'Награди',
+	'photo' => 'Снимки',
+	'social' => 'Споделено',
+	'media' => 'Медии',
+]; ?><!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <meta name="description" content="">
-<!-- <link rel="icon" href="favicon.ico"> -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
 <!-- <link rel="canonical" href="https://rusehack2015.kaloyan.info/"> -->
 
-<title>Bootstrap demo</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-
+<title>#RuseHack2015 &mdash; Първият хакатон в Русе!</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+	crossorigin="anonymous">
 <link href="rusehack2015.css" rel="stylesheet"/>
 </head>
 <body>
@@ -20,31 +33,19 @@
 
 			<button class="navbar-toggler" type="button"
 				data-bs-toggle="collapse"
-				data-bs-target="#navbarNav" aria-controls="navbarNav"
-				aria-expanded="false" aria-label="Toggle navigation">
+				data-bs-target="#napredNazad" aria-controls="napredNazad"
+				aria-expanded="false" aria-label="Превключи навигация">
 			<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<div class="collapse navbar-collapse" id="navbarNav">
+			<div class="collapse navbar-collapse" id="napredNazad">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#start">Организатори</a>
-					</li>
-					<li class="nav-item">
-					<a class="nav-link" href="#teams">Участници</a>
-					</li>
-					<li class="nav-item">
-					<a class="nav-link" href="#social">Споделено</a>
-					</li>
-					<li class="nav-item">
-					<a class="nav-link" href="#photo">Снимки</a>
-					</li>
-					<li class="nav-item">
-					<a class="nav-link" href="#video">Видео</a>
-					</li>
-					<li class="nav-item">
-					<a class="nav-link" href="#media">Медии</a>
-					</li>
+				<?php foreach ($sections as $name => $title)
+				{
+					echo '<li class="nav-item">
+					<a class="nav-link" href="#', $name, '">', $title, '</a>
+					</li>';
+				} ?>
 				</ul>
 
 				<span class="navbar-text">
@@ -66,46 +67,18 @@
 			</div>
 		</div>
 
-		<div class="row">
-		<h1 id="event">Организатори</h1>
+		<?php foreach ($sections as $name => $title)
+		{
+			echo '<div class="row">', '<h1 id="', $name, '">', $title, '</h1>';
 
-		<p>... и спонсори</p>
-		</div>
-
-		<div class="row">
-		<h1 id="teams">Участници</h1>
-
-		<p>...</p>
-		</div>
-
-		<div class="row">
-		<h1 id="social">Споделено</h1>
-
-		<p>...</p>
-		</div>
-
-		<div class="row">
-		<h1 id="photos">Снимки</h1>
-
-		<p>...</p>
-		</div>
-
-		<div class="row">
-		<h1 id="video">Видео</h1>
-
-		<p>...</p>
-
-		<?php include __DIR__ . '/include.video.php'; ?>
-		</div>
-
-		<div class="row">
-		<h1 id="media">Медии</h1>
-
-		<p>...</p>
-		</div>
+			include __DIR__ . '/include.' . $name . '.php';
+			echo '</div>';
+		} ?>
 	</div>
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-	<script src="rusehack2015.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+	crossorigin="anonymous"></script>
+<script src="rusehack2015.js"></script>
 </body>
 </html>
